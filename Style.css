@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+}
+
+/* Header */
+#body-header{
+    background-image: url("https://i.pinimg.com/564x/a3/c4/94/a3c494dd02285b65db8a538926967074.jpg");
+    height: 65vh;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    margin: 0px;
+   background-position: center;
+   
+    
+}
+
+
+/* Horizonatal list */
+.horizontal-List{
+    
+    list-style: none;
+    padding: 0;
+}
+.horizontal-List li{
+    display: inline-block;
+    padding: 0px 8px 8px 0px;
+}
+.horizontal-List li a{
+    color:white;
+    text-decoration: none;
+    transition: color 1s, border-bottom 4s ;
+    
+
+}
+.horizontal-List li a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid white;
+    
+}
+
+/* text center */
+.text-center{
+    text-align: center;
+}
